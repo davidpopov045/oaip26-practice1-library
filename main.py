@@ -8,7 +8,7 @@ from MenuState import MenuState
 def main():
     state = MenuState()
 
-    generate_test_data()
+    # generate_test_data()
 
     load_data(state)    
     login(state)
